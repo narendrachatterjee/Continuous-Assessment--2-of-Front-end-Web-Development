@@ -156,7 +156,37 @@ h2 {
     top:80%;
     left : 5%;
     width: 50vh;
+}
 
+#image-win{
+    position: absolute;
+    top:5%;
+    width: 30vh;
+}
+
+.win-text{
+    position: absolute;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 3px;
+}
+
+#button3{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 220px;
+    height: 60px;
+    width: 40vw;
+    padding: 5px;
+    background-color: #7FD443;
+    border: 1px 0.9 black;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 26px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 3px;
+    color: white;
+    cursor: pointer;
 }
 
 @keyframes flying {
